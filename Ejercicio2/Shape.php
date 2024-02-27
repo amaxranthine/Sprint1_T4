@@ -1,13 +1,16 @@
 <?php
 
-$ample;
+$base;
 $alt;
 class Shape{
 //constructor
-public function __construct($ample, $alt){
-    $this->ample = $ample;
+public function __construct($base, $alt){
+    $this->base = $base;
     $this->alt = $alt;
 }
 
 }
+
+
+
 ?>
