@@ -13,4 +13,4 @@ require_once("Rectangle.php");
  . $triangulo->area();
 //figura 2
 $rectangulo = new Rectangle(20, 10);
-echo "Área para el rectángulo: " . this->area();
+echo "Área para el rectángulo: " . $rectangulo->area();
