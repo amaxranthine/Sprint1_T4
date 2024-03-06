@@ -17,12 +17,13 @@ o no impostos (si el sou supera 6000, paga impostos).*/
     }
 // Segundo paso Plantejar un segon mètode print que imprimeixi el nom 
    public function printNomSou(){
-            print $this->nombre;
+            
             if ($this->sou>=6000){
-				print ' Has de pagar impuestos';
+				$respuesta = '$this->nombre Has de pagar impuestos';
 			}else{
-				print ' No has de pagar impuestos';
+				$respuesta = ' $this->nombre No has de pagar impuestos';
 			}
+         return $respuesta;
 		} 
    }
 
