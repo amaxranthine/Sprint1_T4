@@ -6,7 +6,7 @@ Plantejar un segon mètode print que imprimeixi el nom i un missatge si ha de pa
 o no impostos (si el sou supera 6000, paga impostos).*/
 
 <?php
-$obj = new Employee('Laura',1500);
-
-$obj->printNomSou();
+$obj = new Employee;
+$obj -> initialize ("Laura",1500);
+echo $obj->printNom();
 ?>
